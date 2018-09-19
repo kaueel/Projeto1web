@@ -9,10 +9,10 @@ class Header {
                 </div>
                 <div class="right">
                     <div class="item">
-                        <a class="value" href="./test1/test1.html">Test 1</a>
+                        <a class="value" href="../links/links.html">Links</a>
                     </div>
                     <div class="item">
-                        <a class="value" href="./test2/test2.html">Test 2</a>
+                        <a class="value" href="../media/media.html">Media</a>
                     </div>
                 </div>
             </div>`;
