@@ -1,0 +1,23 @@
+.content {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 24px;
+    padding-left: 24px;
+}
+.content > .title {
+    font-size: x-large;
+    margin-bottom: 24px;
+}
+
+.content > .links {
+    margin-left: 24px;
+}
+
+.content > .links > .link > .title {
+    font-size: large;
+    display: inline;
+    margin-right: 12px;
+}
+
+.content > .links > .link > .url {
+    display: inline;
+}
