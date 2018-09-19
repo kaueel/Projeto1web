@@ -1,0 +1,56 @@
+.main > .content-main > .content-text {
+	display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main > .content-main > .title {
+    display: block;
+    text-align: left;
+	font-family: Arial;
+	font-size: x-large;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+.main > .content-main > .content-text > .text {
+    display: block;
+	background-color: rgba(169, 169, 169, 0.40);
+    padding: 20px;
+    border-radius: 9px;
+    text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin-top: 100px;
+}
+
+.main {
+	margin-bottom: 100px;
+}
+
+.main > .content-main > .content-text > .innerGrid > .image {
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main > .content-main > .content-text > .innerGrid > .image > .perfil{
+    border-radius: 20%;
+    height: 250px;
+    object-fit: cover;
+    width: 250px;
+}
+
+.main > .content-main > .content-text > .innerGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+.main > .content-main {
+	display : block;
+    padding: 50px;
+}
