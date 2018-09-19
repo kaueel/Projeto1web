@@ -1,0 +1,60 @@
+.principal{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.conteudo{
+    width: 100%;
+    height: 95%;
+    padding-top: 2%;
+}
+
+.sessaodireita{
+    width: 80%;
+    padding-left: 40%;
+    padding-right: 10%;
+    padding-top: 10px;
+    text-align: right;
+    float: right;
+}
+
+.sessaoesquerda{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 40%;
+    padding-top: 10px;
+    text-align: left;
+    float: left;
+}
+
+.right{
+    float: right;
+    padding-right: 20px;
+}
+
+.left{
+    float: left;
+    padding-left: 20px;
+}
+
+.pleft{
+    padding-left: 10%;
+}
+
+.biografia{
+    word-wrap: break-spaces;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+img.perfil{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
+}
+
