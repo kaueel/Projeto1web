@@ -1,0 +1,36 @@
+.content {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 24px;
+}
+
+.contacts {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 60px;
+}
+
+.contacts > .contact {
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 12px;
+    padding-left: 25%;
+}
+
+.contacts > .contact > .name {
+    font-size: x-large;
+    color: dimgray;
+}
+
+.contacts > .contact > .mail {
+    color: gray;
+}
+
+.contacts > .contact > .phone {
+    color: gray;
+}
+
+.contacts > .contact > .city {
+    color: gray;
+}
