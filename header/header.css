@@ -1,0 +1,52 @@
+.header-component {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    height: 60px;
+}
+
+.header-component > .left {
+    display: grid;
+}
+
+.header-component > .left > .item {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    padding-left: 12px;
+    font-size: xx-large;
+}
+
+.header-component > .right {
+    display: grid;
+    text-align: right;
+    grid-column-gap: 18px;
+    grid-template-rows: auto;
+    grid-auto-flow: column;
+}
+
+.header-component > .right > .item {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-component > .right > .item > .value {
+    color: #646161;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-component > .right > .item > .value:hover {
+    text-decoration: none;
+}
+
+.header-component > .right > .item > .value:active {
+    color: #646161;
+}
+
+.header-component > .right > .item > .value:visited {
+    color: #646161;
+}
