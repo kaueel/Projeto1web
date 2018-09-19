@@ -14,6 +14,15 @@ class Header {
                     <div class="item">
                         <a class="value" href="../media/media.html">Media</a>
                     </div>
+                    <div class="item">
+                        <a class="value" href="../biografia/biografia.html">Biografia</a>
+                    </div>
+                    <div class="item">
+                        <a class="value" href="../contacts/contacts.html">Contatos</a>
+                    </div>
+                    <div class="item">
+                        <a class="value" href="../technologies/technologies.html">Tecnologias</a>
+                    </div>
                 </div>
             </div>`;
     }
