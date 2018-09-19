@@ -1,0 +1,37 @@
+.conteudo{
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    horiz-align: center;
+    padding-left: 10%;
+}
+
+.sombrarredondada{
+    background-color: #FFFFFF;
+    color: black;
+    width: 60%;
+    margin: 30px 30px 0px 30px;
+    padding: 0px 20px 20px 20px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    float: left;
+    text-align: center;
+
+    box-shadow: 0px 0px 3px black;
+    -webkit-box-shadow: 0px 0px 3px black;
+    -moz-box-shadow: 0px 0px 3px black;
+}
+
+.descricao{
+    word-break: break-word;
+    padding: 0px 40px 20px 40px;
+}
+
+.logo{
+    height: 120px;
+    width: 300px;
+}
+
